@@ -1,8 +1,9 @@
-package com.app
+package apps.perf.test
 
+import com.app.performance.conf.ServiceConfiguration
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-import utill.PageChecker._
+
 object AppRequests {
 
   val baseurl = "https://www.ebay.co.uk/"
