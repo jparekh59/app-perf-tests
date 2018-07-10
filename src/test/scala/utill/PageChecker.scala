@@ -1,9 +1,9 @@
 package utill
 
 import io.gatling.http.check.HttpCheck
-import com.app.AppRequests._
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
+import apps.perf.test.AppRequests.baseurl
 
 /**
   * Created by anuja on 05/06/18.

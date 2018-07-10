@@ -1,7 +1,7 @@
-package com.app
+package apps.perf.test
 
-import perf.tests.runner.setup.simulation._
-import com.app.AppRequests._
+import AppRequests._
+import com.app.performance.simulation.PerformanceTestsRunner
 
 class AppSimulation extends PerformanceTestsRunner {
 
